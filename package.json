@@ -1,0 +1,32 @@
+{
+  "name": "franks-portfolio",
+  "version": "1.0.0",
+  "description": "Photography portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenContreras/franks-portfolio.git"
+  },
+  "author": "Steven Contreras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenContreras/franks-portfolio/issues"
+  },
+  "homepage": "https://github.com/StevenContreras/franks-portfolio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
